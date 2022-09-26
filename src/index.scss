@@ -124,12 +124,12 @@ html {
   }
 }
 
-@media (max-width: 1509px) {
-  .App {
-  }
-}
+// @media (max-width: 1509px) {
+//   .App {
+//   }
+// }
 
-@media (max-width: 903px) {
+@media (max-width: 810px) {
   .App {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;

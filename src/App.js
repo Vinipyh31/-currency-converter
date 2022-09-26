@@ -87,12 +87,13 @@ function App() {
           <title />
           <path d="M114,100l49-49a9.9,9.9,0,0,0-14-14L100,86,51,37A9.9,9.9,0,0,0,37,51l49,49L37,149a9.9,9.9,0,0,0,14,14l49-49,49,49a9.9,9.9,0,0,0,14-14Z" />
         </svg>
-        <ul>
+        <ul
+          className='currency-list'>
           {modalOpen && Object.keys(rates).map((rate, index) => {
             const curName = rate;
             return (
               <li
-                onClick={() => { 
+                onClick={() => {
                   onChangeFromCurrency(curName);
                   switchModalOpen();
                 }}
