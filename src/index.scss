@@ -67,6 +67,17 @@ html {
     background: #fff;
     box-sizing: border-box;
 
+    &::-webkit-scrollbar {
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(22, 182, 127, 0.3);
+
+      &-thumb {
+        background: #16b67f;
+        border-radius: 30px;
+      }
+    }
+
     li {
       list-style-type: none;
       font-size: 16px;
