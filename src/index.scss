@@ -187,8 +187,6 @@ li {
 
 @media (max-width: 425px) {
   .App {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     width: auto;
     min-width: 355px;
     row-gap: 30px;
