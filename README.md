@@ -4,7 +4,7 @@
 
 ## API
 
-Использовал ,бесплатный API c сайта [cur.su](https://cur.su/pages/api)
+Использовал бесплатный API c сайта [cur.su](https://cur.su/pages/api)
 
 # Внешний вид
 
